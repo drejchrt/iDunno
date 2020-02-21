@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>iDunno</title>
+
+    {% include "idunno/ext.html" %}
+
+</head>
+<body>
+
+{% include "idunno/navbar.html" %}
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-md-3 d-none d-md-block sidebar">
+           &nbsp
+        </div>
+        <div class="col-md-6 col-sm-12 text-left main">
+            {% include "idunno/card.html" %}
+        </div>
+        <div class="col-md-3 d-none d-md-block sidebar">
+            &nbsp
+        </div>
+    </div>
+    {% include "idunno/footer.html" %}
+</div>
+<script>
+    function change_symbol_color(color){
+        let symbs = document.getElementsByClassName("idunno-symb");
+
+        for (symb of symbs) {
+            let svg = symb.contentDocument;
+            let pts = svg.getElementsByTagName('circle');
+            for (pt of pts){
+                pt.style.fill = color;
+                pt.style.stroke = 'none';
+            }
+         }
+    }
+    window.onload = function() {
+        change_symbol_color('{{ color }}');
+
+        {#document.querySelector('.row .main').addEventListener('mouseenter',function() {#}
+        {#    document.querySelector('#edit-button').style.display = 'inline';#}
+        {# });#}
+        {#document.querySelector('.row .main').addEventListener('mouseleave',function() {#}
+        {#    document.querySelector('#edit-button').style.display = 'none';#}
+        {# });#}
+    };
+
+</script>
+</body>
+</html>

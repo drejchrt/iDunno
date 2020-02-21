@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>iDunno</title>
+
+    {% include "idunno/ext.html" %}
+    <style>
+        .main, .control {
+            text-align: center;
+        }
+
+        .btn img {
+            height: 1.5em;
+            width: 1.5em;
+        }
+
+        .idunno-hidden {
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+
+{% include "idunno/navbar.html" %}
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-md-3 d-none d-md-block sidebar">
+            &nbsp
+        </div>
+        <div class="col-md-6 col-sm-12 text-left main">
+            {% include "idunno/card.html" %}
+        </div>
+        <div class="col-md-3 d-none d-md-block sidebar">
+            &nbsp
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 d-none d-md-block sidebar">
+            &nbsp
+        </div>
+        <div class="col-md-6 col-sm-12 text-center main control">
+            <div class="btn btn-success w-25 m-3" id="uncover_next">
+                <img src="{% static "img/hint3.svg" %}"></img>
+            </div>
+            <div class="btn-group dropup w-25 m-3">
+                <div type="button" class="btn btn-secondary dropdown-toggle w-100" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
+                    <img src="{% static "img/colors.svg" %}">
+                </div>
+                <div class="dropdown-menu text-center">
+                    <a class="dropdown-item" href="{% url "game" 'B' %}" style="color:#009ce5">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </a>
+                    <a class="dropdown-item" href="{% url "game" 'G' %}" style="color:#33ac2d">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </a>
+                    <a class="dropdown-item" href="{% url "game" 'R' %}" style="color:#e50c07">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </a>
+                    <a class="dropdown-item" href="{% url "game" 'Y' %}" style="color:#fdc500">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3 d-none d-md-block sidebar">
+            &nbsp
+        </div>
+    </div>
+    {% include "idunno/footer.html" %}
+</div>
+<script>
+    function change_symbol_color(color) {
+        let symbs = document.getElementsByClassName("idunno-symb");
+
+        for (symb of symbs) {
+            let svg = symb.contentDocument;
+            let pts = svg.getElementsByTagName('circle');
+            for (pt of pts) {
+                pt.style.fill = color;
+                pt.style.stroke = 'none';
+            }
+        }
+    }
+
+    window.onload = function () {
+        change_symbol_color('{{ color }}');
+        document.querySelector('#uncover_next').addEventListener('click', uncover)
+    };
+
+    let _HINTS = 3;
+
+    function uncover() {
+        let item = $('.idunno-hidden').first();
+        item.toggleClass('idunno-hidden');
+        let icon_url = null
+        switch (_HINTS - 1) {
+            case 2: {
+                icon_url = '{% static "img/hint2.svg" %}';
+                break;
+            }
+            case 1: {
+                icon_url = '{% static "img/hint1.svg" %}';
+                break;
+            }
+            default: {
+                icon_url = '{% static "img/star.svg" %}';
+                break;
+            }
+        }
+        $('#uncover_next img').attr('src', icon_url);
+
+        if (_HINTS >= 0) {
+            _HINTS--;
+        } else {
+            alert('All hints and answer shown')
+        }
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{% load static %}
+
+<div class="idunno-card">
+    <table>
+        <tr>
+            <td colspan="2">
+                {% if not index %}
+                <h3 style="float:left" class="idunno-card-title">{{ question }}</h3>
+                <h3 style="float:right">
+                    <a href="{% url "edit" id %}">
+                        <i id="edit-button" class="fas fa-pencil-alt" style="display:none;"></i>
+                    </a>
+                </h3>
+                {% else %}
+                    <a href="{% url "question" id %}"><h3 style="float:left" class="idunno-card-title">{{ question }}</h3></a>
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td class="symb">
+                <object data="{% static "img/hint3.svg" %}" type="image/svg+xml" class="idunno-symb hint"></object>
+            </td>
+            <td class="idunno-hidden">{{ hint3 }}</td>
+        </tr>
+        <tr>
+            <td class="symb">
+                <object data="{% static "img/hint2.svg" %}" type="image/svg+xml" class="idunno-symb hint"></object>
+            </td>
+            <td class="idunno-hidden">{{ hint2 }}</td>
+        </tr>
+        <tr>
+            <td class="symb">
+                <object data="{% static "img/hint1.svg" %}" type="image/svg+xml" class="idunno-symb hint"></object>
+            </td>
+            <td class="idunno-hidden">{{ hint1 }}</td>
+        </tr>
+        <tr>
+            <td>
+                <object data="{% static "img/star.svg" %}" type="image/svg+xml" class="idunno-symb ans"></object>
+            </td>
+            <td class="idunno-hidden" style="font-weight: bold">{{ answer }}</td>
+        </tr>
+    </table>
+</div>
+
+<style>
+    .idunno-card tr {
+        height: 6em;
+    }
+
+    .idunno-card symb td {
+        width: 6em;
+    }
+
+    .idunno-symb{
+        margin-right: 2em;
+        float: left;
+        height: 3em;
+        width: 3em;
+    }
+
+    .idunno-symb.ans {
+        height: 1em;
+        width: 1em;
+        margin-left: 1.5em;
+    }
+</style>
+
+{#    <h3 class="idunno-card-title">{{ question }}</h3>#}
+{#    <div class="idunno-card-item hint" id="hint3">#}
+{#        <object data="{% static "img/hint3.svg" %}" type="image/svg+xml" class="idunno-symb"></object>#}
+{#        <span>{{ hint3 }}</span>#}
+{#    </div>#}
+{#    <div class="idunno-card-item hint" id="hint2">#}
+{#        <object data="{% static "img/hint2.svg" %}" type="image/svg+xml" class="idunno-symb"></object>#}
+{#        <span>{{ hint2 }}</span>#}
+{#    </div>#}
+{#    <div class="idunno-card-item hint" id="hint1">#}
+{#        <object data="{% static "img/hint1.svg" %}" type="image/svg+xml" class="idunno-symb"></object>#}
+{#        <span>{{ hint1 }}</span>#}
+{#    </div>#}
+{#    <div class="idunno-card-item" style="margin-left:1.5em; margin-top:50px;" id="answer">#}
+{#        <object data="{% static "img/star.svg" %}" type="image/svg+xml" style="height:1em;width:1em;"></object>#}
+{#        <span>{{ answer }}</span>#}
+{#    </div>#}
+{# </div> #}

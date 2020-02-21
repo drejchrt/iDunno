@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg4557"
+   sodipodi:docname="card.svg"
+   width="1154.1797"
+   height="751.92242"
+   viewBox="0 0 1154.1797 751.92245"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata4563">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4561" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview4559"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0.5"
+     scale-x="1"
+     inkscape:zoom="0.40013879"
+     inkscape:cx="333.17003"
+     inkscape:cy="249.01729"
+     inkscape:window-x="-8"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.11163726,651.25382)"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-901.05609"
+       y="-691.71429"
+       transform="matrix(0.24304321,0,0,0.24304321,505.91743,-419.44159)"
+       id="text4489"><tspan
+         sodipodi:role="line"
+         id="q1_text"
+         x="-880.0014"
+         y="-691.71429"
+         style="font-size:190.7961731px">question      </tspan></text>
+    <g
+       id="q1_hint_icons"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <g
+         id="g4588">
+        <circle
+           style="opacity:1;fill:#e50c07;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           id="path4651"
+           cx="-1763.3977"
+           cy="-376.40271"
+           r="54.015007"
+           transform="matrix(0.03328159,0,0,0.03328159,69.183389,29.535452)" />
+        <circle
+           style="opacity:1;fill:#e50c07;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667"
+           transform="matrix(0.03328159,0,0,0.03328159,68.55407,28.652042)" />
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,64.219499,28.762122)"
+           style="opacity:1;fill:#e50c07;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="55.192291"
+           id="path4667-6" />
+      </g>
+      <g
+         id="g4592">
+        <circle
+           style="opacity:1;vector-effect:none;fill:#e50c07;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667-62"
+           transform="matrix(0.03328159,0,0,0.03328159,64.995021,50.944282)" />
+        <circle
+           style="opacity:1;vector-effect:none;fill:#e50c07;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667-9"
+           transform="matrix(0.03328159,0,0,0.03328159,68.013842,47.857552)" />
+      </g>
+      <g
+         id="g4595">
+        <circle
+           style="opacity:1;vector-effect:none;fill:#e50c07;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667-2"
+           transform="matrix(0.03328159,0,0,0.03328159,67.660433,69.798812)" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.24304321,0,0,0.24304321,505.91743,-419.44159)"
+       id="flowRoot4504"><flowRegion
+         id="flowRegion4815"
+         style="font-size:190.7961731px"><rect
+           id="rect4817"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q1_hint3"
+         style="font-size:190.7961731px;line-height:1.10000002">________hint 3_________      </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.24304321,0,0,0.24304321,506.41999,-249.579)"
+       xml:space="preserve"
+       id="flowRoot4509"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4815-9"
+         style="font-size:190.7961731px"><rect
+           id="rect4817-5"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q1_hint2"
+         style="font-size:190.7961731px;line-height:1.10000002">________hint 2_________      </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.24304321,0,0,0.24304321,505.92898,-71.338174)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4514"><flowRegion
+         id="flowRegion4815-1"
+         style="font-size:190.7961731px"><rect
+           id="rect4817-8"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q1_hint1"
+         style="font-size:190.7961731px;line-height:1.10000002">________hint 1_________      </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.24304321,0,0,0.24304321,506.15317,90.350233)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4519"><flowRegion
+         id="flowRegion4815-1-9"
+         style="font-size:190.7961731px"><rect
+           id="rect4817-8-0"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q1_ans"
+         style="font-size:190.7961731px;line-height:1.10000002">________answer_________      </flowPara></flowRoot>    <g
+       id="q1_ans_symb"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <path
+         transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)"
+         inkscape:connector-curvature="0"
+         id="path4784"
+         d="m -1878.1602,1798.856 76.0482,24.7095"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g4642">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -1802.112,1743.6038 v 79.9617"
+           id="path4786"
+           inkscape:connector-curvature="0"
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -1726.0639,1798.856 -76.0481,24.7095"
+           id="path4788"
+           inkscape:connector-curvature="0"
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -1755.1117,1888.2559 -47.0003,-64.6905"
+           id="path4790"
+           inkscape:connector-curvature="0"
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -1802.112,1823.5655 -47.0004,64.6904"
+           id="path4792"
+           inkscape:connector-curvature="0"
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)" />
+      </g>
+    </g>
+    <text
+       transform="matrix(0.24304321,0,0,0.24304321,1078.9095,-422.31641)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-901.05609"
+       y="-691.71429"
+       id="text4529"><tspan
+         sodipodi:role="line"
+         id="q2_text"
+         x="-901.05609"
+         y="-691.71429"
+         style="font-size:190.7961731px">question</tspan></text>
+    <g
+       id="q2_hint_icons"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <g
+         id="g4600">
+        <circle
+           style="opacity:1;vector-effect:none;fill:#fdc500;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           id="path4651-1"
+           cx="-1763.3977"
+           cy="-376.40271"
+           r="54.015007"
+           transform="matrix(0.03328159,0,0,0.03328159,147.64716,29.141782)" />
+        <circle
+           style="opacity:1;vector-effect:none;fill:#fdc500;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667-3"
+           transform="matrix(0.03328159,0,0,0.03328159,147.01784,28.258372)" />
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,142.68327,28.368452)"
+           style="opacity:1;fill:#fdc500;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="55.192291"
+           id="path4667-6-5" />
+      </g>
+      <g
+         id="g4604">
+        <circle
+           style="opacity:1;vector-effect:none;fill:#fdc500;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667-62-0"
+           transform="matrix(0.03328159,0,0,0.03328159,143.4588,50.550612)" />
+        <circle
+           style="opacity:1;vector-effect:none;fill:#fdc500;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667-9-8"
+           transform="matrix(0.03328159,0,0,0.03328159,146.47762,47.463882)" />
+      </g>
+      <g
+         id="g4607">
+        <circle
+           style="opacity:1;vector-effect:none;fill:#fdc500;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           cx="-1681.4124"
+           cy="-232.18825"
+           r="57.735584"
+           id="path4667-2-4"
+           transform="matrix(0.03328159,0,0,0.03328159,146.12421,69.405142)" />
+      </g>
+    </g>
+    <flowRoot
+       transform="matrix(0.24304321,0,0,0.24304321,1078.9095,-422.31641)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4544"><flowRegion
+         id="flowRegion4815-12"
+         style="font-size:190.7961731px"><rect
+           id="rect4817-7"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q2_hint3"
+         style="font-size:190.7961731px;line-height:1.10000002">________hint 3_________      </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.24304321,0,0,0.24304321,1079.4121,-252.45375)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4549"><flowRegion
+         id="flowRegion4815-9-3"
+         style="font-size:190.7961731px"><rect
+           id="rect4817-5-3"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q2_hint2"
+         style="font-size:190.7961731px;line-height:1.10000002">________hint 2_________      </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.24304321,0,0,0.24304321,1078.9211,-74.213001)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4554"><flowRegion
+         id="flowRegion4815-1-0"
+         style="font-size:190.7961731px"><rect
+           id="rect4817-8-6"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q2_hint1"
+         style="font-size:190.7961731px;line-height:1.10000002">________hint 1_________      </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.24304321,0,0,0.24304321,1079.1453,87.475458)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4559"><flowRegion
+         id="flowRegion4815-1-9-8"
+         style="font-size:190.7961731px"><rect
+           id="rect4817-8-0-7"
+           width="1765.7467"
+           height="290.92392"
+           x="-1600.0817"
+           y="-396.74976"
+           style="font-size:190.7961731px" /></flowRegion><flowPara
+         id="q2_ans"
+         style="font-size:190.7961731px;line-height:1.10000002">________answer_________      </flowPara></flowRoot>    <g
+       id="q2_ans_symb"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4784-9"
+         d="m -1878.1602,1798.856 76.0482,24.7095"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4786-4"
+         d="m -1802.112,1743.6038 v 79.9617"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4788-8"
+         d="m -1726.0639,1798.856 -76.0481,24.7095"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4790-0"
+         d="m -1755.1117,1888.2559 -47.0003,-64.6905"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4792-6"
+         d="m -1802.112,1823.5655 -47.0004,64.6904"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)" />
+    </g>
+    <ellipse
+       style="opacity:1;vector-effect:none;fill:#0a0800;fill-opacity:1;stroke:none;stroke-width:0.75590551;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+       id="question_divider"
+       cx="78.137451"
+       cy="49.998737"
+       transform="matrix(0.94074532,0,0,6.925651,503.47075,-614.08881)"
+       rx="1.7448112"
+       ry="49.898739" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#040404;stroke-width:6.00932837;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.93055558;paint-order:markers stroke fill"
+       id="frame"
+       width="4742.8569"
+       height="3085.7144"
+       x="-2045.7142"
+       y="-934.62317"
+       transform="matrix(0.24304321,0,0,0.24304321,497.81558,-423.36974)"
+       ry="125.71429" />
+  </g>
+  <g
+     transform="translate(0.11163726,651.25382)"
+     id="g4713"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <text
+       id="text4573"
+       transform="matrix(0.24304321,0,0,0.24304321,505.91743,-419.44159)"
+       y="-691.71429"
+       x="-901.05609"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:190.7961731px"
+         y="-691.71429"
+         x="-880.00146"
+         id="q3_text"
+         sodipodi:role="line">question    </tspan></text>
+    <g
+       id="g4593"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <g
+         id="g4581">
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,69.183389,29.535452)"
+           r="54.015007"
+           cy="-376.40271"
+           cx="-1763.3977"
+           id="circle4575"
+           style="opacity:1;vector-effect:none;fill:#009ce5;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,68.55407,28.652042)"
+           id="circle4577"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#009ce5;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+        <circle
+           id="circle4579"
+           r="55.192291"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;fill:#009ce5;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           transform="matrix(0.03328159,0,0,0.03328159,64.219499,28.762122)" />
+      </g>
+      <g
+         id="g4587">
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,64.995021,50.944282)"
+           id="circle4583"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#009ce5;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,68.013842,47.857552)"
+           id="circle4585"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#009ce5;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+      </g>
+      <g
+         id="g4591"
+         style="opacity:1;vector-effect:none;fill:#009ce5;fill-opacity:1;stroke:none;stroke-width:0.12578869;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill">
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,67.660433,69.798812)"
+           id="circle4589"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#009ce5;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+      </g>
+    </g>
+    <flowRoot
+       id="flowRoot4601"
+       transform="matrix(0.24304321,0,0,0.24304321,505.91743,-419.44159)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4597"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4595" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q3_hint3">________hint 3_________      </flowPara></flowRoot>    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4609"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,506.41999,-249.579)"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4605"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4603" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q3_hint2">________hint 2_________      </flowPara></flowRoot>    <flowRoot
+       id="flowRoot4617"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,505.92898,-71.338174)"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4613"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4611" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q3_hint1">________hint 1_________</flowPara></flowRoot>    <flowRoot
+       id="flowRoot4625"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,506.15317,90.350233)"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4621"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4619" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q3_ans">________answer_________      </flowPara></flowRoot>    <g
+       id="g4639"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1878.1602,1798.856 76.0482,24.7095"
+         id="path4627"
+         inkscape:connector-curvature="0"
+         transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)" />
+      <g
+         id="g4637">
+        <path
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)"
+           inkscape:connector-curvature="0"
+           id="path4629"
+           d="m -1802.112,1743.6038 v 79.9617"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)"
+           inkscape:connector-curvature="0"
+           id="path4631"
+           d="m -1726.0639,1798.856 -76.0481,24.7095"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)"
+           inkscape:connector-curvature="0"
+           id="path4633"
+           d="m -1755.1117,1888.2559 -47.0003,-64.6905"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           transform="matrix(0.03328159,0,0,0.03328159,69.182415,29.014812)"
+           inkscape:connector-curvature="0"
+           id="path4635"
+           d="m -1802.112,1823.5655 -47.0004,64.6904"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <text
+       id="text4643"
+       y="-691.71429"
+       x="-901.05609"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,1078.9095,-422.31641)"><tspan
+         style="font-size:190.7961731px"
+         y="-691.71429"
+         x="-901.05609"
+         id="q4_text"
+         sodipodi:role="line">question</tspan></text>
+    <g
+       id="g4663"
+       style="fill:#33ac2d;fill-opacity:1"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <g
+         id="g4651"
+         style="fill:#33ac2d;fill-opacity:1">
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,147.64716,29.141782)"
+           r="54.015007"
+           cy="-376.40271"
+           cx="-1763.3977"
+           id="circle4645"
+           style="opacity:1;vector-effect:none;fill:#33ac2d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,147.01784,28.258372)"
+           id="circle4647"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#33ac2d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+        <circle
+           id="circle4649"
+           r="55.192291"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;fill:#33ac2d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
+           transform="matrix(0.03328159,0,0,0.03328159,142.68327,28.368452)" />
+      </g>
+      <g
+         id="g4657"
+         style="fill:#33ac2d;fill-opacity:1">
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,143.4588,50.550612)"
+           id="circle4653"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#33ac2d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,146.47762,47.463882)"
+           id="circle4655"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#33ac2d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+      </g>
+      <g
+         id="g4661"
+         style="fill:#33ac2d;fill-opacity:1">
+        <circle
+           transform="matrix(0.03328159,0,0,0.03328159,146.12421,69.405142)"
+           id="circle4659"
+           r="57.735584"
+           cy="-232.18825"
+           cx="-1681.4124"
+           style="opacity:1;vector-effect:none;fill:#33ac2d;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+      </g>
+    </g>
+    <flowRoot
+       id="flowRoot4671"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,1078.9095,-422.31641)"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4667"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4665" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q4_hint3">________hint 3_________      </flowPara></flowRoot>    <flowRoot
+       id="flowRoot4679"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,1079.4121,-252.45375)"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4675"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4673" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q4_hint2">________hint 2_________      </flowPara></flowRoot>    <flowRoot
+       id="flowRoot4687"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,1078.9211,-74.213001)"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4683"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4681" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q4_hint1">________hint 1_________      </flowPara></flowRoot>    <flowRoot
+       id="flowRoot4695"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:190.7961731px;line-height:0.1;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="matrix(0.24304321,0,0,0.24304321,1079.1453,87.475458)"><flowRegion
+         style="font-size:190.7961731px"
+         id="flowRegion4691"><rect
+           style="font-size:190.7961731px"
+           y="-396.74976"
+           x="-1600.0817"
+           height="290.92392"
+           width="1765.7467"
+           id="rect4689" /></flowRegion><flowPara
+         style="font-size:190.7961731px;line-height:1.10000002"
+         id="q4_ans">________answer_________      </flowPara></flowRoot>    <g
+       id="g4707"
+       transform="matrix(7.3026322,0,0,7.3026322,0.70368036,-631.32609)">
+      <path
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1878.1602,1798.856 76.0482,24.7095"
+         id="path4697"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1802.112,1743.6038 v 79.9617"
+         id="path4699"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1726.0639,1798.856 -76.0481,24.7095"
+         id="path4701"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1755.1117,1888.2559 -47.0003,-64.6905"
+         id="path4703"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="matrix(0.03328159,0,0,0.03328159,147.64619,28.621142)"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:33.88346481;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1802.112,1823.5655 -47.0004,64.6904"
+         id="path4705"
+         inkscape:connector-curvature="0" />
+    </g>
+    <ellipse
+       ry="49.898739"
+       rx="1.7448112"
+       transform="matrix(0.94074532,0,0,6.925651,503.47075,-614.08881)"
+       cy="49.998737"
+       cx="78.137451"
+       id="ellipse4709"
+       style="opacity:1;vector-effect:none;fill:#0a0800;fill-opacity:1;stroke:none;stroke-width:0.75590551;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
+    <rect
+       ry="125.71429"
+       transform="matrix(0.24304321,0,0,0.24304321,497.81558,-423.36974)"
+       y="-934.62317"
+       x="-2045.7142"
+       height="3085.7144"
+       width="4742.8569"
+       id="rect4711"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#040404;stroke-width:6.00932837;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.93055558;paint-order:markers stroke fill" />
+  </g>
+</svg>

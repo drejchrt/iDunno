@@ -1,0 +1,255 @@
+{% load static %}
+
+<style>
+    .idunno-card tr {
+        height: 3em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .idunno-color td {
+        text-align: center;
+    }
+
+    .idunno-symb {
+        text-align: center;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .idunno-question .idunno-symb {
+        font-size: 2em;
+    }
+
+    .idunno-hint .idunno-symb {
+        height: 3em;
+        width: 3em;
+    }
+
+    .idunno-answer .idunno-symb {
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    .idunno-card-buttons {
+        text-align: center;
+    }
+
+    .idunno-card-buttons button {
+        width: 80px;
+    }
+
+    .idunno-card .idunno-edit {
+        height: 2em;
+        width: 2em;
+        color: #007bff;
+    }
+
+    .idunno-card .idunno-edit:hover {
+        transition-duration: 0.2s;
+        font-size: large;
+        color: #000000;
+    }
+
+</style>
+
+<div class="idunno-card">
+    <table class="table-borderless w-100 my-3">
+        <tr class="idunno-color" data-property="color">
+            <td colspan="3">
+                <select id="select_color" class="selectpicker form-control btn-default w-25 d-inline " name="color"
+                        required="" id="id_color">
+                    <option value="B" style="color:#009ce5">&#9679;</option>
+                    <option value="G" style="color:#33ac2d">&#9679;</option>
+                    <option value="R" style="color:#e50c07">&#9679;</option>
+                    <option value="Y" style="color:#fdc500">&#9679;</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="idunno-question modalable" data-property="question">
+            <td class="idunno-symb">
+                <i class="fas fa-question"></i>
+            </td>
+            <td class="idunno-text">
+                <h3>{{ question }}</h3>
+            </td>
+            <td class="idunno-edit">
+            </td>
+        </tr>
+        <tr class="idunno-hint modalable" data-property="hint3">
+            <td class="idunno-symb">
+                <object data="{% static "img/hint3.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+            </td>
+            <td class="idunno-text">
+                {{ hint3 }}
+            </td>
+            <td class="idunno-edit">
+            </td>
+        </tr>
+        <tr class="idunno-hint modalable" data-property="hint2">
+            <td class="idunno-symb">
+                <object data="{% static "img/hint2.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+            </td>
+            <td class="idunno-text">
+                {{ hint2 }}
+            </td>
+            <td class="idunno-edit">
+            </td>
+        </tr>
+        <tr class="idunno-hint modalable" data-property="hint1">
+            <td class="idunno-symb">
+                <object data="{% static "img/hint1.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+            </td>
+            <td class="idunno-text">
+                {{ hint1 }}
+            </td>
+            <td class="idunno-edit">
+            </td>
+        </tr>
+        <tr class="idunno-answer modalable" data-property="answer">
+            <td class="idunno-symb">
+                <object data="{% static "img/star.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+            </td>
+            <td class="idunno-text">
+                {{ answer }}
+            </td>
+            <td class="idunno-edit">
+            </td>
+        </tr>
+        <tr class="idunno-card-buttons">
+            <td colspan="3">
+                <button type="submit" class="btn btn-secondary"><i class="fa fa-save"></i></button>
+                <a href="{% url "question" id %}">
+                    <button type="reset" class="btn btn-default"><i class="fa fa-ban"></i></button>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    // Changes the color of the hint symbols to specified color
+    function change_symbol_color(color) {
+        let symbs = document.querySelectorAll(".idunno-symb object");
+
+        for (symb of symbs) {
+            let svg = symb.contentDocument;
+            let pts = svg.getElementsByTagName('circle');
+            for (pt of pts) {
+                pt.style.fill = color;
+                pt.style.stroke = 'none';
+            }
+        }
+    }
+
+    window.onload = function () {
+        change_symbol_color('{{ color }}');
+    };
+    // Event listener for the select color, that changes the hint symbols accordingly
+    let sc = document.getElementById('select_color');
+    sc.addEventListener("change", function () {
+        let sel_col = sc.options[sc.selectedIndex].style.color;
+        sc.style.color = sel_col;
+        change_symbol_color(sel_col);
+    });
+
+    ///////////////////////////////////////////////////////////
+
+    // Event listeners for displaying the edit pencil in the rows
+    let rows = document.querySelectorAll(".modalable");
+    for (row of rows) {
+        row.addEventListener('mouseenter', function (e) {
+            let trigger_row = e.target;
+            let edit_cell = trigger_row.querySelector('.idunno-edit');
+            let edit_icon_node = document.createElement('i');
+            let property = trigger_row.getAttribute('data-property');
+            edit_icon_node.className = 'fas fa-pencil-alt';
+            edit_icon_node.setAttribute('data-toggle', 'modal');
+            edit_icon_node.setAttribute('data-target', '#valueModal');
+            edit_icon_node.setAttribute('data-property', property);
+            edit_icon_node.setAttribute('data-hover', true);
+            edit_cell.appendChild(edit_icon_node);
+        });
+        row.addEventListener('mouseleave', function (e) {
+            let trigger_row = e.target;
+            let edit_icon_node = trigger_row.querySelector('[data-hover=true]');
+            edit_icon_node.remove();
+        });
+    }
+
+    // sets the modal up according to the row that is going to be edited
+    $('#valueModal').on('show.bs.modal',
+        function (e) {
+            let property = $(e.relatedTarget).data('property');
+            let prop_val = document.querySelector('[data-property=' + property + '] .idunno-text').innerHTML.trim();
+            let modal = $(e.target);
+
+            let icon = null;
+
+            if (property == 'question') {
+                icon = document.createElement('i');
+                icon.className = 'fas fa-question';
+            } else {
+                icon = $("[data-property=" + property + "] object ")[0];
+                icon = icon.cloneNode(true);
+            }
+            let label = document.querySelector('.modal-body label');
+            label.appendChild(icon);
+            modal.find('#new_value').val(prop_val);
+            modal.find('#new_value').attr('data-property', property);
+            $('.idunno-card-buttons [type=submit]').attr('id', 'submit');
+            $('.idunno-card-buttons [type=submit]').attr('class', 'btn btn-primary');
+            $('.idunno-card-buttons [type=submit]').on('click', send_to_server);
+
+        });
+
+    // removes the setup from the modal, so that it can be changed, when editing another property
+    $('#valueModal').on('hide.bs.modal',
+        function (e) {
+            let label = document.querySelector('.modal-body label');
+            label.innerHTML = "";
+        });
+
+
+    $('#modal_set_button').on('click',
+        function (e) {
+            let modal = $('#valueModal');
+            let property = modal.find('#new_value').attr('data-property');
+            let new_prop_val = modal.find('#new_value').val();
+            $('[data-property=' + property + '] .idunno-text').text(new_prop_val);
+        });
+
+
+    function send_to_server() {
+        let data = {
+            'color': $('.idunno-color select').val(),
+            'question': $('.idunno-question .idunno-text').text().trim(),
+            'hint3': $('[data-property=hint3] .idunno-text').text().trim(),
+            'hint2': $('[data-property=hint2] .idunno-text').text().trim(),
+            'hint1': $('[data-property=hint1] .idunno-text').text().trim(),
+            'answer': $('.idunno-answer .idunno-text').text().trim(),
+        };
+        data = JSON.stringify(data);
+        console.log(data);
+        let token = '{{ csrf_token }}';
+
+        $.ajax({
+            headers: {"X-CSRFToken": token},
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json; charset=utf-8',
+            url: "{% url "edit" id %}",
+            data: data,
+            success: function (result) {
+                //show the alert
+                console.log(result);
+                $('#success_alert').toggleClass('fade');
+                $('#success_alert').toggleClass('d-none');
+                $('#close_success_button').on('click', function () {
+                    //hide the alert
+                    $('#success_alert').toggleClass('hide');
+                });
+            }
+        })
+    }
+</script>

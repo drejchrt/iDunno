@@ -1,0 +1,25 @@
+.row{
+    padding:0;
+    margin:0;
+}
+body {
+    background: #e8f1ff;
+    margin-bottom: 60px;
+}
+
+.row .main {
+    background: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer{
+    padding:0;
+    margin:0;
+}
+.container-fluid{
+    padding:0
+}

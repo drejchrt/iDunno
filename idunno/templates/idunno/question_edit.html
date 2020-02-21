@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> iDunno | {{ question }}</title>
+
+    {% include "idunno/ext.html" %}
+
+</head>
+<body>
+
+{% include "idunno/navbar.html" %}
+<div id="success_alert" class="alert alert-success .in fade d-none " role="alert">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <i class="fa fa-check" aria-hidden="true"></i>
+</div>
+<div class="modal fade" id="valueModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header d-block" style="text-align: center;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-window-close" style="" aria-hidden="true"></i>
+                </button>
+                <h3 class="modal-title" id="modalLabel"><i class="fas fa-exchange-alt" style="color:#343a40;"></i></h3>
+            </div>
+            <div class="modal-body d-block text-center">
+                <form>
+                    <div class="form-group">
+                        <label for="new_value" class="col-form-label"></label>
+                        <textarea class="form-control" id="new_value"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-ban"></i></button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="modal_set_button"><i
+                        class="fas fa-check"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-md-3 d-none d-md-block sidebar">
+            &nbsp;
+        </div>
+        <div class="col-md-6 col-sm-12 text-left main">
+            {% include "idunno/card_edit.html" %}
+
+        </div>
+        <div class="col-md-3 d-none d-md-block sidebar">
+            &nbsp;
+        </div>
+    </div>
+    {% include "idunno/footer.html" %}
+</div>
+
+</body>
+</html>

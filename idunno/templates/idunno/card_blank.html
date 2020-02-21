@@ -1,0 +1,120 @@
+{% load static %}
+
+<style>
+    .idunno-card tr{
+        height: 3em;
+    }
+    .idunno-color td {
+        text-align: center;
+    }
+    .idunno-symb {
+        text-align: center;
+    }
+    .idunno-question .idunno-symb {
+        font-size:2em;
+    }
+
+    .idunno-hint .idunno-symb {
+        height:3em;
+        width:3em;
+    }
+    .idunno-answer .idunno-symb {
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    .idunno-card-buttons {
+        text-align: center;
+    }
+    .idunno-card-buttons button {
+        width:80px;
+    }
+
+</style>
+
+<div class="idunno-card">
+    <form class="form-horizontal post-form" method="POST">
+        {% csrf_token %}
+        <table class="table-borderless w-100 my-3">
+            <tr class="idunno-color">
+                <td colspan="2">
+                    <select id="select_color" class="selectpicker form-control btn-default w-25 d-inline " name="color" required="" id="id_color">
+                        <option value="B" style="color:#009ce5">&#9679;</option>
+                        <option value="G" style="color:#33ac2d">&#9679;</option>
+                        <option value="R" style="color:#e50c07">&#9679;</option>
+                        <option value="Y" style="color:#fdc500">&#9679;</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="idunno-question">
+                <td class="idunno-symb">
+                    <i class="fas fa-question"></i>
+                </td>
+                <td class="idunno-text">
+                    <textarea name="question" class="form-control" required="" id="id_question"></textarea>
+                </td>
+            </tr>
+            <tr class="idunno-hint">
+                <td class="idunno-symb">
+                    <object data="{% static "img/hint3.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+                </td>
+                <td class="idunno-text">
+                    <textarea name="hint3" class="form-control" required="" id="id_hint3"></textarea>
+                </td>
+            </tr>
+            <tr class="idunno-hint">
+                <td class="idunno-symb">
+                    <object data="{% static "img/hint2.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+                </td>
+                <td class="idunno-text">
+                    <textarea name="hint2" class="form-control" required="" id="id_hint2"></textarea>
+                </td>
+            </tr>
+            <tr class="idunno-hint">
+                <td class="idunno-symb">
+                    <object data="{% static "img/hint1.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+                </td>
+                <td class="idunno-text">
+                    <textarea name="hint1" class="form-control" required="" id="id_hint1"></textarea>
+                </td>
+            </tr>
+            <tr class="idunno-answer">
+                <td class="idunno-symb">
+                    <object data="{% static "img/star.svg" %}" type="image/svg+xml" class="idunno-symb"></object>
+                </td>
+                <td class="idunno-text">
+                    <textarea name="answer" class="form-control" required="" id="id_answer"></textarea>
+                </td>
+            </tr>
+            <tr class="idunno-card-buttons">
+                <td colspan="2">
+                    <button type="submit" class="btn btn-primary" ><i class="fa fa-save"></i></button>
+                    <button type="reset" class="btn btn-secondary"><i class="fa fa-ban"></i></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script>
+    function change_symbol_color(color){
+        let symbs = document.querySelectorAll(".idunno-symb object");
+
+        for (symb of symbs) {
+            let svg = symb.contentDocument;
+            let pts = svg.getElementsByTagName('circle');
+            for (pt of pts){
+                pt.style.fill = color;
+                pt.style.stroke = 'none';
+            }
+         }
+    }
+
+    let sc= document.getElementById('select_color');
+    sc.addEventListener("change",function() {
+        let sel_col = sc.options[sc.selectedIndex].style.color;
+        sc.style.color = sel_col;
+        change_symbol_color(sel_col);
+    });
+
+</script>
