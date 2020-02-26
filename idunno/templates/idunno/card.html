@@ -3,16 +3,12 @@
 <div class="idunno-card">
     <table>
         <tr>
-            <td colspan="2">
+            <td colspan="2" class="w-50">
                 {% if not index %}
-                <h3 style="float:left" class="idunno-card-title">{{ question }}</h3>
-                <h3 style="float:right">
-                    <a href="{% url "edit" id %}">
-                        <i id="edit-button" class="fas fa-pencil-alt" style="display:none;"></i>
-                    </a>
-                </h3>
+                    <h3 style="float:left" class="idunno-card-title">{{ question }}</h3>
                 {% else %}
-                    <a href="{% url "question" id %}"><h3 style="float:left" class="idunno-card-title">{{ question }}</h3></a>
+                    <a href="{% url "question" id %}"><h3 style="float:left"
+                                                          class="idunno-card-title">{{ question }}</h3></a>
                 {% endif %}
             </td>
         </tr>
@@ -52,7 +48,7 @@
         width: 6em;
     }
 
-    .idunno-symb{
+    .idunno-symb {
         margin-right: 2em;
         float: left;
         height: 3em;
@@ -66,21 +62,3 @@
     }
 </style>
 
-{#    <h3 class="idunno-card-title">{{ question }}</h3>#}
-{#    <div class="idunno-card-item hint" id="hint3">#}
-{#        <object data="{% static "img/hint3.svg" %}" type="image/svg+xml" class="idunno-symb"></object>#}
-{#        <span>{{ hint3 }}</span>#}
-{#    </div>#}
-{#    <div class="idunno-card-item hint" id="hint2">#}
-{#        <object data="{% static "img/hint2.svg" %}" type="image/svg+xml" class="idunno-symb"></object>#}
-{#        <span>{{ hint2 }}</span>#}
-{#    </div>#}
-{#    <div class="idunno-card-item hint" id="hint1">#}
-{#        <object data="{% static "img/hint1.svg" %}" type="image/svg+xml" class="idunno-symb"></object>#}
-{#        <span>{{ hint1 }}</span>#}
-{#    </div>#}
-{#    <div class="idunno-card-item" style="margin-left:1.5em; margin-top:50px;" id="answer">#}
-{#        <object data="{% static "img/star.svg" %}" type="image/svg+xml" style="height:1em;width:1em;"></object>#}
-{#        <span>{{ answer }}</span>#}
-{#    </div>#}
-{# </div> #}

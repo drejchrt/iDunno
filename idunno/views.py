@@ -10,6 +10,7 @@ from idunno.forms import NewQuestionForm
 
 import json
 
+
 def index(request):
     question = Question.get_random_question()
 
@@ -39,10 +40,11 @@ def add_question(request):
     return render(request, 'idunno/newQuestion.html', {'form': form})
 
 
-def list(request,sort_attr='id'):
+def list(request, sort_attr='id'):
     questions = Question.objects.all().order_by(sort_attr)
     context = {'questions': questions}
-    return render(request,"idunno/list.html",context)
+    return render(request, "idunno/list.html", context)
+
 
 def edit_question(request, question_id):
     if request.method == 'POST':
@@ -74,7 +76,8 @@ def edit_question(request, question_id):
         }
         return render(request, 'idunno/question_edit.html', context)
 
-def question(request,question_id):
+
+def question(request, question_id):
     question = Question.objects.get(pk=question_id)
     context = {
         'id': question.pk,
@@ -85,13 +88,19 @@ def question(request,question_id):
         'answer': question.answer,
         'color': Question.COLORS[question.color]
     }
-    return render(request,'idunno/question.html',context)
+    return render(request, 'idunno/question.html', context)
 
-def game(request,color):
-    color = None if color == '?' else color
-    question = Question.get_random_question(color)
+
+def game(request, query):
+    try:
+        query = int(query)
+        question = Question.objects.get(pk=query)
+    except ValueError:
+        color = None if query == '?' else query
+        question = Question.get_random_question(color)
+
     context = {
-        'index':True,
+        'index': True,
         'id': question.pk,
         'question': question.question,
         'hint3': question.hint3,
@@ -100,7 +109,8 @@ def game(request,color):
         'answer': question.answer,
         'color': Question.COLORS[question.color]
     }
-    return render(request,'idunno/game.html',context)
+    return render(request, 'idunno/game.html', context)
+
 
 def search(request, query):
     context = {}
@@ -115,6 +125,3 @@ def search(request, query):
     context["questions"] = questions
     # print(questions)
     return render(request, "idunno/list.html", context=context)
-
-
-

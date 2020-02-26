@@ -1,0 +1,5 @@
+{% if questions %}
+    {% for q in questions %}
+        <a href="{% url "question" q.id %}">{{ q.question }} | {{ q.answer }}</a><br>
+    {% endfor %}
+{% endif %}
