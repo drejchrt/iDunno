@@ -1,0 +1,9 @@
+1) Question page:
+    a) Implement delete
+    b) Implement share link for that question in guessing mode
+    c) Implement link to wiki search for the answer
+2) DB interface for
+    a) Uploading custom question DBs
+    b) Merging DBs
+    c) Importing and exporting DBs to csv or xlsx
+3) Coloring issues in list and new qeustion in mobile

@@ -1,6 +1,10 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.db.models import Q
 from django.shortcuts import redirect
+from django.http import JsonResponse
+from django.template.loader import render_to_string
+
 from idunno.models import Question
 from idunno.forms import NewQuestionForm
 
@@ -97,3 +101,20 @@ def game(request,color):
         'color': Question.COLORS[question.color]
     }
     return render(request,'idunno/game.html',context)
+
+def search(request, query):
+    context = {}
+    questions = Question.objects.filter(
+        Q(question__icontains=query) |
+        Q(hint3__icontains=query) |
+        Q(hint2__icontains=query) |
+        Q(hint1__icontains=query) |
+        Q(answer__icontains=query)
+    )
+    context["query"] = query
+    context["questions"] = questions
+    # print(questions)
+    return render(request, "idunno/list.html", context=context)
+
+
+
